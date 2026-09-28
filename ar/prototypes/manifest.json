@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "productionApproved": false,
+  "assets": [
+    {
+      "id": "keyboard",
+      "label": "키보드",
+      "reviewStatus": "draft",
+      "illustrative": true,
+      "measurementVerified": false,
+      "productId": null,
+      "files": {
+        "glb": {
+          "url": "/ar/prototypes/keyboard.glb",
+          "bytes": 121252,
+          "sha256": "3d1c146769d97b4b70a2178fe302fa9dd908b1925847ae2323c1253c4d246e2d"
+        },
+        "usdz": {
+          "url": "/ar/prototypes/keyboard.usdz",
+          "bytes": 219604,
+          "sha256": "582d0374e8c57c9eb0086d0b8a2fc3fd7642fb65a09a28b123c845d68047aa1b"
+        }
+      },
+      "geometryBoundsMeters": {
+        "width": 0.3199999928474426,
+        "height": 0.02649999941885471,
+        "depth": 0.11999999731779099
+      },
+      "note": "절차적 형태 예시. 실물 치수·재질·판매 상품과 일치하지 않음."
+    },
+    {
+      "id": "hat",
+      "label": "모자",
+      "reviewStatus": "draft",
+      "illustrative": true,
+      "measurementVerified": false,
+      "productId": null,
+      "files": {
+        "glb": {
+          "url": "/ar/prototypes/hat.glb",
+          "bytes": 75968,
+          "sha256": "c640c03dea056767df3f58c26926338cb3b4ee086647b26ed6bf279baccb4bd9"
+        },
+        "usdz": {
+          "url": "/ar/prototypes/hat.usdz",
+          "bytes": 222022,
+          "sha256": "7eac86c59caf966c6cdfad6cadb7ba080a51ef61b5cbada903a4e16b90c0d5b3"
+        }
+      },
+      "geometryBoundsMeters": {
+        "width": 0.2199999988079071,
+        "height": 0.1210000000782311,
+        "depth": 0.24594999831914904
+      },
+      "note": "절차적 형태 예시. 실물 치수·재질·판매 상품과 일치하지 않음."
+    },
+    {
+      "id": "tshirt",
+      "label": "티셔츠",
+      "reviewStatus": "draft",
+      "illustrative": true,
+      "measurementVerified": false,
+      "productId": null,
+      "files": {
+        "glb": {
+          "url": "/ar/prototypes/tshirt.glb",
+          "bytes": 19076,
+          "sha256": "e5738ea0a264f29aaa1a4cd2a24e7764f64757c3a6dae3be0ed84f4612edeee2"
+        },
+        "usdz": {
+          "url": "/ar/prototypes/tshirt.usdz",
+          "bytes": 59889,
+          "sha256": "5eee877491364c2bde4389a19183c8cd3bc590652493f7f2cdfd42df4ddc9725"
+        }
+      },
+      "geometryBoundsMeters": {
+        "width": 0.8104302883148193,
+        "height": 0.6081340429373085,
+        "depth": 0.02850000020302832
+      },
+      "note": "절차적 형태 예시. 실물 치수·재질·판매 상품과 일치하지 않음."
+    },
+    {
+      "id": "bag",
+      "label": "가방",
+      "reviewStatus": "draft",
+      "illustrative": true,
+      "measurementVerified": false,
+      "productId": null,
+      "files": {
+        "glb": {
+          "url": "/ar/prototypes/bag.glb",
+          "bytes": 44800,
+          "sha256": "b5ba9d76ebb53c594642227e6e799da07c9d8761ef2bb9e382a950ce886055c8"
+        },
+        "usdz": {
+          "url": "/ar/prototypes/bag.usdz",
+          "bytes": 127835,
+          "sha256": "50205eca1dfecd674cfecb047b4424eb4344f6e85bd82f534cafb5c7c411976b"
+        }
+      },
+      "geometryBoundsMeters": {
+        "width": 0.30000001192092896,
+        "height": 0.3962500033527613,
+        "depth": 0.10350000075809657
+      },
+      "note": "절차적 형태 예시. 실물 치수·재질·판매 상품과 일치하지 않음."
+    },
+    {
+      "id": "keyring",
+      "label": "키링",
+      "reviewStatus": "draft",
+      "illustrative": true,
+      "measurementVerified": false,
+      "productId": null,
+      "files": {
+        "glb": {
+          "url": "/ar/prototypes/keyring.glb",
+          "bytes": 65324,
+          "sha256": "de3f2d189abc14194611b3d19ce8d4ad930f537bd8e8e56d29df5a21d0614d5d"
+        },
+        "usdz": {
+          "url": "/ar/prototypes/keyring.usdz",
+          "bytes": 208899,
+          "sha256": "2f0f2fba4be93bbf543d33875a3a7821fffb28b6b26c6cd2db5d24fdf897c3e5"
+        }
+      },
+      "geometryBoundsMeters": {
+        "width": 0.08144613355398178,
+        "height": 0.11997360366582871,
+        "depth": 0.010999999707564712
+      },
+      "note": "절차적 형태 예시. 실물 치수·재질·판매 상품과 일치하지 않음."
+    }
+  ]
+}
