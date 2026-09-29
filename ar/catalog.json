@@ -1,0 +1,140 @@
+[
+  {
+    "id": "legacy-th-1",
+    "name": "TH SIGN LOGO ROPE DEEP-FIT BALLCAP",
+    "image": "https://ecimg.cafe24img.com/pg1664b65566644035/trafficharmony/web/product/medium/20260518/589fd6a8dfb85fd391d828b49d44d62c.jpg",
+    "price": 49000,
+    "slot": "hat",
+    "sourceUrl": "https://www.trafficharmony.kr/product/th-sign-logo-rope-deep-fit-ballcap/179/",
+    "sellable": true,
+    "version": "lovable-snapshot-20260927"
+  },
+  {
+    "id": "legacy-th-2",
+    "name": "CORDUROY ROUND LOGO DEEP-FIT 5-PANEL CAP / MUSTARD",
+    "image": "https://ecimg.cafe24img.com/pg1664b65566644035/trafficharmony/web/product/medium/20251215/25a0b2daac8cf214569997895eda3a2e.jpg",
+    "price": 43400,
+    "slot": "hat",
+    "sourceUrl": "https://www.trafficharmony.kr/product/corduroy-round-logo-deep-fit-5-panel-capmustard/91/",
+    "sellable": true,
+    "version": "lovable-snapshot-20260927"
+  },
+  {
+    "id": "legacy-th-3",
+    "name": "WOOL BLEND TH APPLIQUE LOGO DEEP-FIT BALLCAP / GREY",
+    "image": "https://ecimg.cafe24img.com/pg1664b65566644035/trafficharmony/web/product/medium/20250925/99d2edd1f00f844b8d8485f35a53b511.jpg",
+    "price": 36400,
+    "slot": "hat",
+    "sourceUrl": "https://www.trafficharmony.kr/product/wool-blend-th-applique-logo-deep-fit-ballcapgrey/74/",
+    "sellable": true,
+    "version": "lovable-snapshot-20260927"
+  },
+  {
+    "id": "legacy-th-4",
+    "name": "WOOL BLEND TH APPLIQUE LOGO DEEP-FIT 6-PANEL CAP / GREY",
+    "image": "https://ecimg.cafe24img.com/pg1664b65566644035/trafficharmony/web/product/medium/20250925/9640dd6f6a232a712c388d6542ca4bd8.jpg",
+    "price": 43400,
+    "slot": "hat",
+    "sourceUrl": "https://www.trafficharmony.kr/product/wool-blend-th-applique-logo-deep-fit-6-panel-capgrey/79/",
+    "sellable": true,
+    "version": "lovable-snapshot-20260927"
+  },
+  {
+    "id": "legacy-th-5",
+    "name": "CORDUROY ROUND LOGO DEEP-FIT BALLCAP / NAVY",
+    "image": "https://ecimg.cafe24img.com/pg1664b65566644035/trafficharmony/web/product/medium/20250925/7af72a85387a501e0064a7ebfb49f971.jpg",
+    "price": 36400,
+    "slot": "hat",
+    "sourceUrl": "https://www.trafficharmony.kr/product/corduroy-round-logo-deep-fit-ballcapnavy/86/",
+    "sellable": true,
+    "version": "lovable-snapshot-20260927"
+  },
+  {
+    "id": "sample-chic-fedora",
+    "name": "블랙 페도라",
+    "slot": "hat",
+    "image": "ar/accessories/chic-fedora.png",
+    "overlay": "ar/accessories/chic-fedora.png",
+    "localImage": "./public/ar/accessories/chic-fedora.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-cozy-beret",
+    "name": "베이지 베레모",
+    "slot": "hat",
+    "image": "ar/accessories/cozy-beret.png",
+    "overlay": "ar/accessories/cozy-beret.png",
+    "localImage": "./public/ar/accessories/cozy-beret.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-cute-heart-glasses",
+    "name": "하트 선글라스",
+    "slot": "eyes",
+    "image": "ar/accessories/cute-heart-glasses.png",
+    "overlay": "ar/accessories/cute-heart-glasses.png",
+    "localImage": "./public/ar/accessories/cute-heart-glasses.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-hot-red-glasses",
+    "name": "레드 캣아이",
+    "slot": "eyes",
+    "image": "ar/accessories/hot-red-glasses.png",
+    "overlay": "ar/accessories/hot-red-glasses.png",
+    "localImage": "./public/ar/accessories/hot-red-glasses.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-cozy-glasses",
+    "name": "토트셸 안경",
+    "slot": "eyes",
+    "image": "ar/accessories/cozy-glasses.png",
+    "overlay": "ar/accessories/cozy-glasses.png",
+    "localImage": "./public/ar/accessories/cozy-glasses.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-cute-ribbon",
+    "name": "리본 헤어핀",
+    "slot": "hair",
+    "image": "ar/accessories/cute-ribbon.png",
+    "overlay": "ar/accessories/cute-ribbon.png",
+    "localImage": "./public/ar/accessories/cute-ribbon.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-chic-gold-earrings",
+    "name": "골드 이어링",
+    "slot": "jewel",
+    "image": "ar/accessories/chic-gold-earrings.png",
+    "overlay": "ar/accessories/chic-gold-earrings.png",
+    "localImage": "./public/ar/accessories/chic-gold-earrings.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  },
+  {
+    "id": "sample-hot-choker",
+    "name": "초커",
+    "slot": "jewel",
+    "image": "ar/accessories/hot-choker.png",
+    "overlay": "ar/accessories/hot-choker.png",
+    "localImage": "./public/ar/accessories/hot-choker.png",
+    "sellable": true,
+    "sample": true,
+    "version": "sample-1"
+  }
+]
