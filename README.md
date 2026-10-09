@@ -1,21 +1,24 @@
 # NVH AR Demo
 
-Public static build from nicevaryhot/nvh-ar-studio, commit c36e0aa, branch codex/result-prototype.
+Public static build from nicevaryhot/nvh-ar-studio, commit 2f59661, branch codex/result-prototype.
 
+- Image to rotatable model: https://nicevaryhot.github.io/nvh-ar-demo/image-model/
 - Guided prototype: https://nicevaryhot.github.io/nvh-ar-demo/prototype/
 - Commerce: https://nicevaryhot.github.io/nvh-ar-demo/
-- Camera / reconstruction workspace: https://nicevaryhot.github.io/nvh-ar-demo/camera/
+- Camera: https://nicevaryhot.github.io/nvh-ar-demo/camera/
 
-## Generated portrait and real product reconstruction
+## One image, one model, unrestricted rotation
 
-The fourth prototype tab now starts from the selected generated photograph and a real product photograph. The person and product must become separate 3D assets so the product can be exchanged on the same person. No generic scanned person or procedural hat is shown as their reconstruction result.
+The current image modeling flow accepts one uploaded photograph or the selected generated image. Person/product separation and accessory fitting have been removed from the active customer workflow. Existing 2D image fitting and recommendation interfaces remain available.
 
-The service source implements generated result -> accessory removal draft -> user review -> person GLB, and real catalog product image -> private draft product GLB. It checks source ownership, expiry, review acknowledgement, catalog identity, separate activation flags and a shared 3D quota. Product draft review in the current session is not production publication.
+The shared viewer supports trackball rotation across all axes, up/down/left/right/roll buttons, front/back/top/bottom views, zoom, reset, GLB download and screenshot download. Local GLB import is explicitly labeled. The optional rotation sample is a procedural draft hat, not a reconstruction of the uploaded photograph or a real product.
 
-The public static site has no connected AI backend. It supports image selection/local uploads, previews, and importing separate prebuilt person/product GLBs. All generation buttons remain disabled. Up to four product photos can be previewed locally; the current server adapter reconstructs from the single representative catalog photo. Multi-image reconstruction and exact identity/product fidelity validation remain unimplemented or unverified.
+The source service includes an independently gated image3d job using Meshy, with no image synthesis provider or product catalog dependency. It reuses authenticated ownership, encrypted storage, request idempotency, shared model quotas, cancellation and expiry. Uploading an image or rotating an existing model does not itself send a generation request.
 
-The other tabs use pre-generated AI images of a fictional adult. They illustrate image synthesis, version history and angles, without live AI requests or charges. TH photos/prices are a Lovable catalog snapshot rather than live inventory.
+**No AI backend is connected to this public static site.** Photo previews, local GLB import and rotation controls work; actual image-to-model generation stays disabled until a configured backend is connected. Real-photo reconstruction accuracy has not been validated. Unseen surfaces must be inferred and are not guaranteed to match the subject.
 
-Retained scan assets under ar/avatar-sample are an earlier sample resource, not the active reconstruction result. Attribution: Infinite, 3D Head Scan by Lee Perry-Smith, CC BY 3.0 Unported; https://github.com/mrdoob/three.js/tree/r183/examples/models/gltf/LeePerrySmith . The original license is distributed alongside the files.
+Other prototype tabs show pre-generated images of a fictional adult. TH product photos/prices are a Lovable snapshot rather than live inventory. Old scan assets remain in the static archive: Infinite, 3D Head Scan by Lee Perry-Smith, CC BY 3.0 Unported; https://github.com/mrdoob/three.js/tree/r183/examples/models/gltf/LeePerrySmith . Their original license is distributed alongside the files.
+
+Validation: TypeScript, existing AR/client checks, 26 server tests, and production build passed. Browser checks covered image upload, selected image handoff, GLB import, all-axis rotation, top/bottom views, and mobile layout. Server tests use mock provider results, not real paid generations.
 
 No customer photos, credentials, production backend or shopping API are included.
