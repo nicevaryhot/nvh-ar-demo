@@ -1,6 +1,6 @@
 # NVH AR Demo
 
-Public static build from nicevaryhot/nvh-ar-studio, commit a8c672c, branch codex/result-prototype.
+Public static build from nicevaryhot/nvh-ar-studio, commit 3aff412, branch codex/result-prototype.
 
 - Dimensional photo: https://nicevaryhot.github.io/nvh-ar-demo/image-model/
 - Guided prototype: https://nicevaryhot.github.io/nvh-ar-demo/prototype/
