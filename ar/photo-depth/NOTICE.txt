@@ -1,0 +1,20 @@
+Photo depth viewer third-party notices
+
+Transformers.js 4.3.1
+Copyright Hugging Face. Apache License 2.0; see APACHE-2.0.txt.
+https://github.com/huggingface/transformers.js
+
+Depth Anything V2 Small (ONNX Community conversion)
+Model: onnx-community/depth-anything-v2-small
+Revision: 4472b7362082ad9968fee890ca0f1e5aca36b93d
+Base project: https://github.com/DepthAnything/Depth-Anything-V2
+Small model license: Apache License 2.0; see APACHE-2.0.txt.
+Weights are fetched from Hugging Face; photographs are processed locally.
+
+ONNX Runtime Web (WASM)
+Copyright Microsoft Corporation. MIT License; see ONNX-RUNTIME-LICENSE.txt.
+https://github.com/microsoft/onnxruntime
+
+Images in this demo are separately identified as pre-generated fictional-person examples
+or existing catalog photographs. Third-party model licenses do not transfer ownership of
+user images. No original user images or depth results are stored in the model cache.

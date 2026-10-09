@@ -1,0 +1,1 @@
+import{j as a}from"./index-UMKL2CCT.js";import i from"./ImageModelWorkbench-DN_gyfjw.js";function l({base:r,apiBase:o,photo:t,generated:e}){return a.jsx(i,{base:r,apiBase:o,initialImage:t?{url:t,title:"선택한 이미지"}:e})}export{l as default};
