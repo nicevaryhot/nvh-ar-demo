@@ -1,18 +1,21 @@
 # NVH AR Demo
 
-Public static demo built from the private nicevaryhot/nvh-ar-studio source (d3f6c03, branch `codex/result-prototype`).
+Public static build from nicevaryhot/nvh-ar-studio, commit c36e0aa, branch codex/result-prototype.
 
-- Commerce fitting: https://nicevaryhot.github.io/nvh-ar-demo/
-- Standalone camera: https://nicevaryhot.github.io/nvh-ar-demo/camera/
-- Guided result prototype: https://nicevaryhot.github.io/nvh-ar-demo/prototype/
-- Original product 3D prototypes: https://nicevaryhot.github.io/nvh-ar-demo/?type=models
+- Guided prototype: https://nicevaryhot.github.io/nvh-ar-demo/prototype/
+- Commerce: https://nicevaryhot.github.io/nvh-ar-demo/
+- Camera / reconstruction workspace: https://nicevaryhot.github.io/nvh-ar-demo/camera/
 
-The guided prototype's fourth tab demonstrates the intended flow: portrait upload → person 3D generation → separate product meshes on the same person → rotate, adjust and capture. The working sample uses a public photographic head scan with separately attached sample hat/glasses; it is not reconstructed from an uploaded portrait. Local GLB import is also available. Choosing a portrait switches to a clearly labeled generation-pending state; the live photo-to-3D service is not connected.
+## Generated portrait and real product reconstruction
 
-Scan attribution: Infinite, 3D Head Scan by Lee Perry-Smith, CC BY 3.0 Unported. Source: https://github.com/mrdoob/three.js/tree/r183/examples/models/gltf/LeePerrySmith . Original license is distributed in ar/avatar-sample/LeePerrySmith_License.txt. Runtime scale, lighting and materials are adjusted. Product meshes are unverified illustrative shapes, not replicas of the pictured TH product.
+The fourth prototype tab now starts from the selected generated photograph and a real product photograph. The person and product must become separate 3D assets so the product can be exchanged on the same person. No generic scanned person or procedural hat is shown as their reconstruction result.
 
-The other guided tabs show seven pre-generated AI images of a fictional adult, referenced product photos, comparison, outfit/pose/angle switching, temporary example history/quota/reservations and downloads. Clicking does not call AI or incur charges. Angle images are separate 2D results, not reconstructed person geometry. These samples are not a benchmark for a named model or quality setting.
+The service source implements generated result -> accessory removal draft -> user review -> person GLB, and real catalog product image -> private draft product GLB. It checks source ownership, expiry, review acknowledgement, catalog identity, separate activation flags and a shared 3D quota. Product draft review in the current session is not production publication.
 
-Live AI synthesis, recommendations, portrait reconstruction and account history require the separate backend/providers. They are not connected to this public static build. Uploaded photos and GLB files are read locally in the browser. No production backend, credentials, customer photos or shopping API are included.
+The public static site has no connected AI backend. It supports image selection/local uploads, previews, and importing separate prebuilt person/product GLBs. All generation buttons remain disabled. Up to four product photos can be previewed locally; the current server adapter reconstructs from the single representative catalog photo. Multi-image reconstruction and exact identity/product fidelity validation remain unimplemented or unverified.
 
-TH product images/prices are a Lovable catalog snapshot, not live inventory. Other accessory overlays and 3D models are illustrative and unverified.
+The other tabs use pre-generated AI images of a fictional adult. They illustrate image synthesis, version history and angles, without live AI requests or charges. TH photos/prices are a Lovable catalog snapshot rather than live inventory.
+
+Retained scan assets under ar/avatar-sample are an earlier sample resource, not the active reconstruction result. Attribution: Infinite, 3D Head Scan by Lee Perry-Smith, CC BY 3.0 Unported; https://github.com/mrdoob/three.js/tree/r183/examples/models/gltf/LeePerrySmith . The original license is distributed alongside the files.
+
+No customer photos, credentials, production backend or shopping API are included.
