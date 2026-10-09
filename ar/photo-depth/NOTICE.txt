@@ -18,3 +18,12 @@ https://github.com/microsoft/onnxruntime
 Images in this demo are separately identified as pre-generated fictional-person examples
 or existing catalog photographs. Third-party model licenses do not transfer ownership of
 user images. No original user images or depth results are stored in the model cache.
+
+U²-Net Small / u2netp
+Copyright Xuebin Qin et al. Apache License 2.0; see APACHE-2.0.txt.
+Upstream: https://github.com/xuebinqin/U-2-Net
+ONNX distribution: https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2netp.onnx
+SHA256: 309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8
+MD5 (upstream rembg check): 8e83ca70e441ab06c318d82300c84806
+Model bytes are served by this demo. Segmentation runs locally via ONNX Runtime Web 1.22.0 (MIT).
+Mask normalization follows the rembg/U2Net model preprocessing contract.

@@ -1,0 +1,1 @@
+import{j as a}from"./index-BJ41B_gg.js";import i from"./ImageModelWorkbench-D7svaj2r.js";function l({base:r,apiBase:o,photo:t,generated:e}){return a.jsx(i,{base:r,apiBase:o,initialImage:t?{url:t,title:"선택한 이미지"}:e})}export{l as default};
