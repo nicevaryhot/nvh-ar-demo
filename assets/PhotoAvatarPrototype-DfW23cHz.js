@@ -1,0 +1,1 @@
+import{j as i}from"./index-BSxc3jNa.js";import a from"./ImageModelWorkbench-eZXO_H9_.js";import"./photo-processing-W9F1h5bR.js";function p({base:r,apiBase:o,photo:t,generated:e}){return i.jsx(a,{base:r,apiBase:o,initialImage:t?{url:t,title:"선택한 이미지"}:e})}export{p as default};
